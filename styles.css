@@ -2,6 +2,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px;
     padding: 0px;
+    background-color: #1F2937;
 }
 
 .header {
@@ -117,6 +118,7 @@ a {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    background-color: #f9faf8;
     flex-grow: 5;
 }
 
@@ -130,6 +132,7 @@ a {
     padding-right: 250px;
     gap:20px;
     padding-bottom: 100px;
+    background-color: #f9faf8;
 
 }
 
@@ -140,6 +143,7 @@ a {
     text-align: center;
     width: 156px;
     padding: 20px;
+    background-color: #f9faf8;
 }
 
 .box{
@@ -192,6 +196,7 @@ a {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #f9faf8;
 
 }
 
