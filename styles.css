@@ -25,9 +25,9 @@ body{
 .website{
     display: flex;
     flex-direction: row;
-    height: 400px;
     background-color: #1F2937;
     gap: 50px;
+    padding-bottom: 50px;
 }
 
 .hero {
@@ -99,6 +99,7 @@ a {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    flex-grow: 5;
 }
 
 .third_container {
