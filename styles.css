@@ -11,6 +11,7 @@ body{
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .logo {
@@ -20,6 +21,8 @@ body{
     font-size: 24px;
     color: #f9faf8;
     margin-left: 250px;
+    margin-right: 450px;
+    flex-shrink: 0;
 }
 
 .website{
@@ -27,6 +30,7 @@ body{
     flex-direction: row;
     background-color: #1F2937;
     gap: 50px;
+    padding-top: 15px;
     padding-bottom: 50px;
 }
 
@@ -62,23 +66,37 @@ body{
 .list {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 175px;
+    justify-content: center;
+    margin-right: 140px;
     gap: 10px;
+    flex-shrink: 0;
     
 }
 
+.hero_img {
+    height: 350px;
+    width: 650px;
+    background-color: grey; 
+    margin-left: 260px;
+    margin-right: 80px;
+    margin-top: 25px;
+}
+
 .img {
-    display: flex;
-    justify-content: center;
     align-items: center;
     height: 350px;
     width: 650px;
-    margin-left: 200px;
-    margin-top: 20px;
-    flex-wrap: wrap;
 }
 
+.box_image {
+    width: 150px;
+    height: 150px;
+    border-color: #3882F6;
+    border-style:solid;
+    align-items: center;
+    border-width: 2px;
+    border-radius: 5px;
+}
 
 li {
     list-style-type: none;
@@ -95,7 +113,7 @@ a {
     flex-direction:column;
     align-items:center;
     justify-content: center;
-    height: 100px;
+    padding: 50px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -105,11 +123,11 @@ a {
 .third_container {
     display: flex;
     flex-direction: row;
-    height: 200px;
     text-align: center;
     justify-content: center;
-    padding-left: 550px;
-    padding-right: 550px;
+    flex-wrap: wrap;
+    padding-left: 250px;
+    padding-right: 250px;
     gap:20px;
     padding-bottom: 100px;
 
@@ -127,9 +145,7 @@ a {
 .box{
     height: 150px;
     width: 150px;
-    border-radius: 15px;
-    border-color: #3882F6;
-    border-style:solid;
+    border-radius: 5px;
     justify-content: center;
 }
 
@@ -237,7 +253,7 @@ a {
     margin-bottom: 25px;
 }
 
-  .footer{
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
