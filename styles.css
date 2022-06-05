@@ -12,8 +12,8 @@ body{
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
-    flex-shrink: 0;
-}
+    flex-shrink: 2;
+    }
 
 .logo {
     display: flex;
@@ -29,6 +29,7 @@ body{
 .website{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: #1F2937;
     gap: 50px;
     padding-top: 15px;
