@@ -195,6 +195,7 @@
 .last_container {
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-color: #f9faf8;
 
@@ -234,11 +235,13 @@
     text-align: left;
     color:#f9faf8;
     font-weight: bold;
+    flex-wrap: wrap;
 }
 
 .sign {
     text-align: left;
     color:#f9faf8;
+    flex-wrap: wrap;
 }
 
 .second_button {
